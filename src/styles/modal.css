@@ -1,0 +1,73 @@
+.modal-dialog {
+    left: 50%;
+    max-width: 1060px!important;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.modal-dialog .modal-content {
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    outline: 0;
+    padding: 20px 56px 50px;
+    position: relative;
+}
+
+.modal-header {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+	align-items: center;
+}
+
+.icon-close {
+    font-size: 35px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 10px;
+    color: rgb(8, 39, 71);;
+}
+
+.modal-body h1 {
+	font-size: 50px;
+    font-family: 'Cookie';
+    margin: 10px 0px 10px 0px;
+    color: rgb(58, 68, 78);
+    text-align: center;
+    margin-top: 10px;
+    color: #575757;
+}
+
+.btn-acept {
+    width: 60%;
+    background-color: #006FE5;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btn-acept:hover {
+    background-color: #014b9b;
+  }
+
+@media (min-width: 780px) {
+    .modal-content {
+      width: 600px;
+    }
+}
